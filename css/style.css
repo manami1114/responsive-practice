@@ -87,6 +87,7 @@
 .flex--reverse {
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 
 .q5 {
@@ -101,6 +102,17 @@
 }
 
 /* q6 */
+.item01 {
+  order: 1;
+}
+
+.item02 {
+  order: 2;
+}
+
+.item03 {
+  order: 3;
+}
 /* q7 */
 .sp {
   display: none;
